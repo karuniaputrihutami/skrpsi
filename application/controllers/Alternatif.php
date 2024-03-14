@@ -61,11 +61,11 @@
                 if ($this->form_validation->run() != false) {
                     $result = $this->Alternatif_model->insert($data);
                     if ($result) {
-                        $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil disimpan!</div>');
+                        $this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil disimpan!</div>');
 						redirect('alternatif');
                     }
                 } else {
-                    $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data gagal disimpan!</div>');
+                    $this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data gagal disimpan!</div>');
                     redirect('alternatif/create');
                     
                 }
@@ -107,14 +107,14 @@
             );
 
             $this->Alternatif_model->update($id_alternatif, $data);
-			$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil diupdate!</div>');
+			$this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil diupdate!</div>');
             redirect('alternatif');
         }
     
         public function destroy($id_alternatif)
         {
             $this->Alternatif_model->delete($id_alternatif);
-			$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil dihapus!</div>');
+			$this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil dihapus!</div>');
             redirect('alternatif');
         }
 

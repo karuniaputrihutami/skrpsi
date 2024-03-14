@@ -22,10 +22,10 @@
     <link rel="icon" href="<?= base_url('assets/') ?>img/favicon.ico" type="image/x-icon">
 </head>
 
-<body class="bg-gradient-success">
+<body class="bg-gradient-primary">
     <nav class="navbar navbar-expand-lg navbar-dark bg-white shadow-lg pb-3 pt-3 font-weight-bold">
         <div class="container">
-            <a class="navbar-brand text-success" style="font-weight: 900;" href="<?= base_url('') ?>"> <i
+            <a class="navbar-brand text-primary" style="font-weight: 900;" href="<?= base_url('') ?>"> <i
                     class="fa fa-database mr-2 rotate-n-15"></i> Sistem Pendukung Keputusan Metode MAUT Pada Koperasi
                 Karyawan PT. Tifico</a>
         </div>
@@ -67,7 +67,7 @@
                                                 name="password" placeholder="Password" />
                                         </div>
                                         <button name="submit" type="submit"
-                                            class="btn btn-success btn-user btn-block"><i
+                                            class="btn btn-primary btn-user btn-block"><i
                                                 class="fas fa-fw fa-sign-in-alt mr-1"></i> Masuk</button>
                                     </form>
                                 </div>
