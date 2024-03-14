@@ -8,7 +8,7 @@
     </div>
 	
     <!-- Content Row -->
-    <div class="alert alert-success">
+    <div class="alert alert-primary">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         Selamat datang <span class="text-uppercase"><b><?= $this->session->username; ?>!</b></span> Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah.
     </div>
@@ -45,7 +45,7 @@
         </div>
 		
 		<div class="col-xl-4 col-md-6 mb-4">
-            <div class="card border-left-success shadow h-100 py-2">
+            <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -114,7 +114,7 @@
     </div>
 	
     <!-- Content Row -->
-    <div class="alert alert-success">
+    <div class="alert alert-primary">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
         Selamat datang <span class="text-uppercase"><b><?= $this->session->username; ?>!</b></span> Anda bisa mengoperasikan sistem dengan wewenang tertentu melalui pilihan menu di bawah.
     </div>
@@ -151,7 +151,7 @@
         </div>
 		
 		<div class="col-xl-4 col-md-6 mb-4">
-            <div class="card border-left-success shadow h-100 py-2">
+            <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">

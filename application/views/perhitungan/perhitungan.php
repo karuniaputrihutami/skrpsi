@@ -7,13 +7,13 @@
 <div class="card shadow mb-4">
     <!-- /.card-header -->
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-success"><i class="fa fa-table"></i> Matrik Keputusan X</h6>
+        <h6 class="m-0 font-weight-bold text-primary"><i class="fa fa-table"></i> Matrik Keputusan X</h6>
     </div>
 
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-success text-white">
+				<thead class="bg-primary text-white">
 					<tr align="center">
 						<th width="5%">No</th>
 						<th>Alternatif</th>
@@ -73,13 +73,13 @@
 <div class="card shadow mb-4">
     <!-- /.card-header -->
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-success"><i class="fa fa-table"></i> Normalisasi Matrix X</h6>
+        <h6 class="m-0 font-weight-bold text-primary"><i class="fa fa-table"></i> Normalisasi Matrix X</h6>
     </div>
 
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-success text-white">
+				<thead class="bg-primary text-white">
 					<tr align="center">
 						<th width="5%">No</th>
 						<th>Nama Alternatif</th>
@@ -119,13 +119,13 @@
 <div class="card shadow mb-4">
     <!-- /.card-header -->
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-success"><i class="fa fa-table"></i> Bobot Kriteria</h6>
+        <h6 class="m-0 font-weight-bold text-primary"><i class="fa fa-table"></i> Bobot Kriteria</h6>
     </div>
 
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-success text-white">
+				<thead class="bg-primary text-white">
 					<tr align="center">
 						<?php foreach ($kriteria as $key): ?>
 						<th><?= $key->keterangan ?></th>
@@ -151,13 +151,13 @@
 <div class="card shadow mb-4">
     <!-- /.card-header -->
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-success"><i class="fa fa-table"></i> Perkalian Matrik Normalisasi Dengan Bobot Kriteria</h6>
+        <h6 class="m-0 font-weight-bold text-primary"><i class="fa fa-table"></i> Perkalian Matrik Normalisasi Dengan Bobot Kriteria</h6>
     </div>
 
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead class="bg-success text-white">
+				<thead class="bg-primary text-white">
 					<tr align="center">
 						<th width="5%">No</th>
 						<th>Nama Alternatif</th>

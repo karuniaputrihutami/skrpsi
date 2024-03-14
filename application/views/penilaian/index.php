@@ -9,13 +9,13 @@
 <div class="card shadow mb-4">
     <!-- /.card-header -->
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-success"><i class="fa fa-table"></i> Daftar Data Penilaian</h6>
+        <h6 class="m-0 font-weight-bold text-primary"><i class="fa fa-table"></i> Daftar Data Penilaian</h6>
     </div>
 
     <div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-				<thead class="bg-success text-white">
+				<thead class="bg-primary text-white">
 					<tr align="center">
 						<th width="5%">No</th>
 						<th>Alternatif</th>
@@ -33,7 +33,7 @@
 
 						<td>
 						<?php if ($cek_tombol==0) { ?>
-						<a data-toggle="modal" href="#set<?= $keys->id_alternatif ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Input</a>
+						<a data-toggle="modal" href="#set<?= $keys->id_alternatif ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> Input</a>
 						<?php } else { ?>
 						<a data-toggle="modal" href="#edit<?= $keys->id_alternatif ?>" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i> Edit</a>
 						<?php } ?>
@@ -71,7 +71,7 @@
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-warning" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
-										<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Simpan</button>
+										<button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Simpan</button>
 									</div>
 								</form>
 							</div>
@@ -110,7 +110,7 @@
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-warning" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
-										<button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Update</button>
+										<button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Update</button>
 									</div>
 								</form>
 							</div>

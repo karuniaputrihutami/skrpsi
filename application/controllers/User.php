@@ -58,7 +58,7 @@
 			if ($this->form_validation->run() != false) {
 				$result = $this->User_model->insert($data);
 				if ($result) {
-					$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil disimpan!</div>');
+					$this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil disimpan!</div>');
 					redirect('User');
 				}
 			} else {
@@ -105,14 +105,14 @@
             );
 
             $this->User_model->update($id_user, $data);
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil diupdate!</div>');
+            $this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil diupdate!</div>');
 			redirect('User');
         }
     
         public function destroy($id_user)
         {
             $this->User_model->delete($id_user);
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil dihapus!</div>');
+            $this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil dihapus!</div>');
 			redirect('User');
         }
     

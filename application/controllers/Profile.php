@@ -34,7 +34,7 @@
             );
 
             $this->Profile_model->update($id_user, $data);
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil diupdate!</div>');
+            $this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil diupdate!</div>');
 			redirect('Profile');
         }
     

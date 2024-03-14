@@ -8,7 +8,7 @@
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-success"><i class="fas fa-fw fa-edit"></i> Edit Data Profile</h6>
+        <h6 class="m-0 font-weight-bold text-primary"><i class="fas fa-fw fa-edit"></i> Edit Data Profile</h6>
     </div>
 	
 	<?php echo form_open('Profile/update/'.$profile->id_user); ?>
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<div class="card-footer text-right">
-            <button type="submit" class="btn btn-success"><i class="fa fa-save"></i> Update</button>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Update</button>
             <button type="reset" class="btn btn-info"><i class="fa fa-sync-alt"></i> Reset</button>
         </div>
 	<?php echo form_close() ?>

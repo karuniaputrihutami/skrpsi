@@ -45,7 +45,7 @@
                 $this->Penilaian_model->tambah_penilaian($id_alternatif,$id_kriteria[$i],$key);
                 $i++;
             }
-			$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil disimpan!</div>');
+			$this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil disimpan!</div>');
             redirect('penilaian');
         }
 
@@ -65,7 +65,7 @@
 				}
 				$i++;
 			}
-			$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Data berhasil diupdate!</div>');
+			$this->session->set_flashdata('message', '<div class="alert alert-primary" role="alert">Data berhasil diupdate!</div>');
 			redirect('penilaian');
 		}
     }
